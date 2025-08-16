@@ -1,0 +1,7 @@
+attendance= float(input("Enter number of days attended (0-100)"))
+
+
+if (attendance >=75):
+   print("student is allowed to sit the exam")
+else:
+   print("student is not allowed to sit the exam")
