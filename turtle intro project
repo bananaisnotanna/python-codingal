@@ -1,0 +1,36 @@
+import turtle
+
+x=turtle.Turtle() 
+
+for i in range(3): 
+    x.forward(100) 
+    x.left(120)
+
+    turtle.done
+#triangle
+
+
+import turtle
+
+x=turtle.Turtle()
+
+for i in range(6):
+    x.forward(100)
+    x.left(60)
+
+turtle.done()
+#hexagon
+
+import turtle
+
+x=turtle.Turtle()
+
+x.speed(0)
+
+for i in range(4):
+    x.forward(100)
+    x.left(90)
+
+turtle.done()
+
+#square
