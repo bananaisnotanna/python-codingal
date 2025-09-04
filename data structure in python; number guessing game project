@@ -1,0 +1,16 @@
+print("Harsh will now be guessing the number the judge has chosen. Below is the list provided to Harsh.")
+
+numbers=[5,9,4,2,7,6]
+print(numbers)
+
+judgechoice=int(input("Judge, choose a number."))
+
+harshguess=int(input("Harsh, choose a number."))
+
+if harshguess < judgechoice:
+    print("Harsh guessed a number that is too small.")
+
+elif harshguess > judgechoice:
+    print("Harsh has guessed a number that is too big.")
+else:
+    print("Harsh has guessed the correct number.")
