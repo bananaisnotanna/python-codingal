@@ -1,0 +1,3 @@
+tuple=("Anna", "Ahmed", "155cm","46kg")
+personalinfo=list(tuple)
+print(personalinfo)
