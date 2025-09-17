@@ -1,0 +1,18 @@
+class Animal:
+    def __init__(self, speciesType, lifespanValue, voreType):
+        self.species=speciesType
+        self.lifespan=lifespanValue
+        self.vore=voreType
+        print("Animal Class Constructor")
+    def run(self):
+        print("Animal is running.")
+    def eat(self):
+        print("Animal is eating.")
+
+    
+cat= Animal("Cat", "13-20yrs", "obligate carnivore")
+print(cat.lifespan)
+print(cat.vore)
+conure= Animal("small parrot", "20-30yrs", "omnivore")
+print(conure.lifespan)
+print(conure.vore)
