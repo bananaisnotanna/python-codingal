@@ -1,0 +1,24 @@
+class Vehicle:
+    def __init__(self):
+
+        print("select your vehicle.")
+    def move(self):
+         print(f"{self.__class__.__name__} is moving.")
+class Car(Vehicle):
+    def __init__(self):
+        super().__init__()
+    def honk(self):
+        print("car is honking.")
+class Bike(Vehicle):
+    def __init__(self):
+        super().__init__()
+    def kick_start(self):
+        print("bike is started with a kick.")
+car=Car()
+car.honk()
+car.move()
+bike=Bike()
+bike.kick_start()
+bike.move()
+vehicle=Vehicle()
+vehicle.move()
