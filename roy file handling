@@ -1,0 +1,8 @@
+fileRef=open(r'filehandling\roy','w')
+
+student_name=input("Enter the name of the student: ")
+favourite_subject=input("Enter studetns favourite subject: ")
+student_age=input("Enter the age of the student: ")
+
+txt=student_name+"   "+favourite_subject+"   "+student_age +"\n"
+fileRef.write(txt)
