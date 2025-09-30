@@ -1,0 +1,21 @@
+class Employee:
+    def __init__(self, nameV, id_):
+        self.name=nameV
+        self.id=id_
+        print("Employee class is created.")
+    def displayInfo(self):
+        print(f"Employee name: {self.name}\nid:{self.id}")
+class Manager(Employee):
+    def __init__(self, nameV, id_,dv):
+        super().__init__(nameV,id_)
+        self.department=dv
+        print("Manager class object is created")
+        #overriding<--polymorphism
+    def displayInfo(self):
+        super().displayInfo()
+        print(f"{self.name} department:{self.department}")
+        print("--------")
+farhan=Manager("Mantasha Farhan","Emp001","Android")
+iraaj=Manager("Iraaj","emp002","IOS")
+farhan.displayInfo()
+iraaj.displayInfo()
