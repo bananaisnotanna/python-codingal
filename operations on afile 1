@@ -1,0 +1,7 @@
+file=open(r'filehandling\operationsonafile', 'r')
+
+line1=file.readline()
+print(line1)
+print(file.read())
+print(file.read())
+print(file.read())
