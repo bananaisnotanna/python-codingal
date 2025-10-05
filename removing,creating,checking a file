@@ -1,0 +1,31 @@
+#checking if a file exists
+import os
+
+filePath=input("enter the path of the file: ")
+res=os.path.exists(filePath)
+if res==True:
+    print("the file exists.")
+else:
+    print("the file does not exist.")
+
+
+#creating a new file.
+fileName=input("Enter the file name: ")
+
+try:
+    file=open(fileName+".txt","x") #x is creating a new file.xyz
+except Exception as e:
+    print("File already exists")
+
+
+#remocing a file
+
+import os
+filePath=input("Enter the relative path of a file:  ")
+
+if os.path.exists(filePath):
+    print("file alr exists")
+    os.remove(filePath)
+    print("existing file removed")
+else:
+    print("file does not exist")
