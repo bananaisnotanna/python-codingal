@@ -1,0 +1,18 @@
+from tkinter import *
+import requests
+
+win=Tk()
+win.geometry("700x400")
+win.title("Password Generator")
+
+label= Label(win,text="Enter a Password",font=("Ariel",15))
+label.pack(pady=10)
+entry=Entry(win)
+entry.pack(pady=10)
+
+submit=Button(win,text="submit",font=("Ariel",15),bg="light pink",fg="white")
+submit.pack(pady=10)
+
+
+
+win.mainloop()
