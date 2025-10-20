@@ -1,0 +1,6 @@
+myfunction1
+time complexity:O(n)
+recurrence relation:T(n) = T(n/2) + T(n/3) + O(n)
+my functio2
+time ocmplexity:O(n)
+recurrence relation:T(n) = T(n-1) + O(1)
