@@ -1,0 +1,6 @@
+first loop: runs n+1 times, time complexity : O(n)
+second loop time complexity: O(log n) 
+third loop time complexity: O(1)
+TOTAL: O(n)+O(log n)+O(1)=O(n)
+
+time complexity overall= O(n)
