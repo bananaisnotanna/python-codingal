@@ -1,0 +1,14 @@
+def multiply_one_iteration(a, b):
+    return a * b     # just one step
+
+def multiply_n_iterations(a, b):
+    result = 0
+    for i in range(b):   # repeat b times
+        result = result + a
+    return result
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Using 1 iteration:", multiply_one_iteration(a, b))
+print("Using n iterations:", multiply_n_iterations(a, b))
