@@ -1,0 +1,9 @@
+for n in range(10,100):
+   isPrime=True
+   for i in range(2,n):
+      rem=n%i
+      if rem==0:
+         isPrime=False
+         break
+   if isPrime==True:
+      print(n)
