@@ -1,0 +1,10 @@
+n=int(input("enter num: "))
+
+if n==0:
+    print("no set bits.")
+else:
+    position=0
+    while n%1==0:
+        n=n>>1
+        position=position+1
+    print("postion of rightmost set bit: ", position)
