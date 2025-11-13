@@ -1,0 +1,13 @@
+n=int(input("enter num: "))
+inputpos=int(input("enter position:  "))
+position=0
+   
+while n>0:
+   if position==inputpos:
+    if (n&1)==0:
+      print("num at positon is",0 )
+    else:
+      print("num at position is",1)
+    
+   n=n>>1
+   position+=1
