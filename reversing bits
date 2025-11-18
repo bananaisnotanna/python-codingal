@@ -1,0 +1,11 @@
+num = int(input("Enter a number: "))
+
+binary = bin(num)[2:]
+
+rev_binary = binary[::-1]
+
+rev_num = int(rev_binary, 2)
+
+print("Original binary:", binary)
+print("Reversed binary:", rev_binary)
+print("New number:", rev_num)
