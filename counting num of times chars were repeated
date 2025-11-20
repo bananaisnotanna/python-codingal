@@ -1,0 +1,15 @@
+input=input("enter: ")
+
+countedchar=[]
+
+for char in input:
+    count=0#within loop to reset value of count for each character.
+    
+    if char not in countedchar:
+
+     print("curent",char)
+     for y in input:
+         if char==y:
+             count+=1
+     print(char,"count: ",count)
+    countedchar.append(char)
